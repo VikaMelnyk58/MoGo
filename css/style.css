@@ -10,22 +10,17 @@
     --text-color: #B6B6B6;
     --background-color: #FFF;
 }
-ul{
-   list-style: none;
-    margin:0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-}
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+.container{
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid;
 }
 .header{
     padding-top: 17px;
@@ -111,4 +106,23 @@ body{
 }
 .footer-link{
     color: var(--hover-color);
+}
+.footer-input{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 12px 145px 11px 10px;
+    border: 1px solid var(--text-color);
+}
+.footer-button{
+    color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-variant: all-small-caps;
+    background-color: var(--logo-color);
+    padding: 11px 38px 12px 38px;
+    border: none;
+    margin-left: -3px;
+    cursor: pointer;
 }
