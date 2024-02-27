@@ -36,6 +36,21 @@ body{
 .navigation-link:focus{
     color: var(--hover-color);
 }
+.current:hover:after{
+    content: "";
+    background-color: var(--hover-color);
+    height: 3px;
+    width: 100%;
+    display: inline-block;
+
+}
+.current::after{
+    content: "";
+    border-color: var(--logo-color);
+    height: 3px;
+    width: 100%;
+    display: inline-block;
+}
 .name{
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -178,4 +193,12 @@ body{
 }
 .servise{
     padding-top: 68px;
+}
+.title::after{
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: var(--hover-color);
+    display: block;
+    margin: 40px auto;
 }
